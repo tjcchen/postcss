@@ -11,22 +11,29 @@ module.exports = {
     filename: '[name].js'
   },
   module: {
-    rules: [{
-      test: /\.css$/,
-      exclude: /node_modules/,
-      use: [{
-          loader: 'style-loader',
-        },
-        {
-          loader: 'css-loader',
-          options: {
-            importLoaders: 1,
+    rules: [
+      {
+        test: /\.js$/,
+        use: 'babel-loader'
+      },
+      {
+        test: /\.css$/,
+        exclude: /node_modules/,
+        use: [{
+            loader: 'style-loader',
+          },
+          {
+            loader: 'css-loader',
+            options: {
+              importLoaders: 1,
+              modules: true,
+            },
+          },
+          {
+            loader: 'postcss-loader'
           }
-        },
-        {
-          loader: 'postcss-loader'
-        }
-      ]
-    }]
+        ]
+      }
+    ]
   }
 };
