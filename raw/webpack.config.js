@@ -26,7 +26,8 @@ module.exports = {
             loader: 'css-loader',
             options: {
               importLoaders: 1,
-              modules: true,
+              // TODO check this later
+              // modules: true,
             },
           },
           {
