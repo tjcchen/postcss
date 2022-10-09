@@ -18,6 +18,7 @@
     "postcss": "^8.4.17",
     "postcss-loader": "^7.0.1",
     "postcss-nested": "^6.0.0",
+    "postcss-pxtorem": "^6.0.0",
     "style-loader": "^3.3.1",
     "webpack": "^5.74.0",
     "webpack-cli": "^4.10.0"
