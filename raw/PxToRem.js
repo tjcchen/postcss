@@ -8,12 +8,14 @@ const css = fs.readFileSync('./src/index/index.css', 'utf-8');
 const options = {
   rootValue: 100,
   unitPrecision: 5,
-  propList: ['font', 'margin', 'padding', 'line-height', 'letter-spacing'],
+  propList: ['font', 'font-size', 'margin', 'transform', 'padding', 'line-height', 'letter-spacing'],
   selectorBlackList: [],
   replace: true,
   mediaQuery: false,
   minPixelValue: 0,
   exclude: null,
+  // [FIX] Fix error
+  // exclude: /node_modules/i
 };
 const processedCss = postcss(pxtorem(options)).process(css).css;
 
