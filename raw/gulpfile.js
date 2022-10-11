@@ -1,3 +1,6 @@
+/**
+ * Entry point file of gulp
+ */
 const gulp = require('gulp');
 const postcss = require('gulp-postcss');
 const autoprefixer = require('autoprefixer');
