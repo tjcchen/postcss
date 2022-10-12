@@ -11,5 +11,10 @@
   "license": "ISC",
   "dependencies": {
     "gulp": "^4.0.2"
+  },
+  "devDependencies": {
+    "cssnano": "^5.1.13",
+    "gulp-postcss": "^9.0.1",
+    "postcss": "^8.4.17"
   }
 }
