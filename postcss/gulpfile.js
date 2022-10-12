@@ -6,13 +6,13 @@ const postcss = require('gulp-postcss');
 const cssnano = require('cssnano');
 
 gulp.task('styles', () => {
-  const plugins = [
-    cssnano()
+  const processors = [
+    cssnano
   ];
 
   return gulp
     .src('styles.css')
-    .pipe(postcss(plugins))
+    .pipe(postcss(processors))
     .pipe(gulp.dest('./dest'));
 });
 
