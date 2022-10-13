@@ -2,11 +2,14 @@ body {
   background: yellow;
 }
 
-p {
-  width: 200px;
+.wrapper .top {
   height: 200px;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+}
+.wrapper .medium {
+  height: 200px;
+}
+.wrapper .bottom {
+  height: 100px;
+  -webkit-transform: translateY(100px);
+          transform: translateY(100px);
 }

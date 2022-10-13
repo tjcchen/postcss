@@ -1,0 +1,18 @@
+body {
+  background: yellow;
+}
+
+.wrapper {
+  & .top {
+    height: 200px;
+  }
+
+  & .medium {
+    height: 200px;
+  }
+
+  & .bottom {
+    height: 100px;
+    transform: translateY(100px);
+  }
+}
