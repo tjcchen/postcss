@@ -17,8 +17,8 @@ gulp.task('styles', () => {
 
   return gulp
     .src('styles.scss')
-    .pipe(sass())
-    .pipe(postcss(processors))
+    .pipe(sass())              // CSS preprocessor
+    .pipe(postcss(processors)) // postcss
     .pipe(gulp.dest('./dest'));
 });
 
