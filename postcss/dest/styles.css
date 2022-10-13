@@ -1,1 +1,12 @@
-body{background:#ff0}p{height:200px;width:200px}
+body {
+  background: yellow;
+}
+
+p {
+  width: 200px;
+  height: 200px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}

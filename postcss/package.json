@@ -13,6 +13,7 @@
     "gulp": "^4.0.2"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.12",
     "cssnano": "^5.1.13",
     "gulp-postcss": "^9.0.1",
     "postcss": "^8.4.17"

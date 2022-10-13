@@ -3,11 +3,15 @@
  */
 const gulp = require('gulp');
 const postcss = require('gulp-postcss');
+const autoprefixer = require('autoprefixer');
 const cssnano = require('cssnano');
 
 gulp.task('styles', () => {
   const processors = [
-    cssnano
+    autoprefixer({
+      browsers: 'last 1 version'
+    }),
+    // cssnano
   ];
 
   return gulp
