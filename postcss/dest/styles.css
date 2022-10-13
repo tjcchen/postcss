@@ -1,15 +1,15 @@
 body {
-  background: yellow;
+  background: #a52a2a;
 }
-
-.wrapper .top {
-  height: 200px;
+.wrapper {
+  height: 500px;
+}
+.wrapper .header {
+  height: 100px;
 }
 .wrapper .medium {
   height: 200px;
 }
 .wrapper .bottom {
   height: 100px;
-  -webkit-transform: translateY(100px);
-          transform: translateY(100px);
 }
