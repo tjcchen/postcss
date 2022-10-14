@@ -1,15 +1,2 @@
-body {
-  background: #a52a2a;
-}
-.wrapper {
-  height: 500px;
-}
-.wrapper .header {
-  height: 100px;
-}
-.wrapper .medium {
-  height: 200px;
-}
-.wrapper .bottom {
-  height: 100px;
-}
+body{background:#ff0}.wrapper .medium,.wrapper .top{height:200px}.wrapper .bottom{height:100px;-webkit-transform:translateY(100px);transform:translateY(100px)}
+/*# sourceMappingURL=styles.css.map */
