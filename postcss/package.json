@@ -21,5 +21,10 @@
     "gulp-stylus": "^2.7.1",
     "postcss": "^8.4.17",
     "sass": "^1.55.0"
-  }
+  },
+  "browserslist": [
+    "last 3 version",
+    "> 1%",
+    "not dead"
+  ]
 }
