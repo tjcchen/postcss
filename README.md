@@ -9,7 +9,10 @@ postcss relevant things
 ## Useful Links
 - cssnano: compress css files  
 link: https://github.com/cssnano/cssnano
-
+- gulp-sass: gulp version of sass
+link: https://github.com/dlmanning/gulp-sass
+- autoprefixer: prepend prefix to css attributes  
+link: https://github.com/postcss/autoprefixer
 
 ## License
 Apache 2.0
