@@ -11,9 +11,15 @@ const sourcemaps = require('gulp-sourcemaps');
 
 gulp.task('styles', () => {
   const processors = [
-    autoprefixer({
-      browsers: 'last 2 version'
-    }),
+    // autoprefixer({
+    //   browsers: [
+    //     'last 2 version',
+    //     'not dead',
+    //     '> 0.2%',
+    //   ]
+    // }),
+    // browserslist defined in package.json
+    autoprefixer(),
     cssnano
   ];
 
